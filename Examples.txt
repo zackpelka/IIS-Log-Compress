@@ -1,0 +1,25 @@
+Command Line in Scheduled Tasks:
+
+C:\WINDOWS\system32\cscript.exe c:\scripts\iislogcompress\iislogcompress.js 10 d:\logs\weblogs
+
+OR
+
+C:\WINNT\system32\cscript.exe c:\scripts\iislogcompress\iislogcompress.js 10 d:\logs\weblogs
+
+OR
+
+C:\WINNT\system32\cscript.exe c:\scripts\iislogcompress\iislogcompress.js 10 c:\winnt\system32\LogFiles
+
+OR
+
+C:\WINDOWS\system32\cscript.exe c:\scripts\iislogcompress\iislogcompress.js 10 c:\windows\system32\LogFiles
+
+
+
+Scheduled Task:
+
+9:00 PM Every Day
+
+Stop if it runs more than 2 hours.
+
+Schedule it as administrator on the box.
